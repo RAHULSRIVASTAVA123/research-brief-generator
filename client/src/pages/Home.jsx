@@ -94,9 +94,15 @@ export default function Home() {
     try {
       setLoading(true);
 
-      const res = await axios.post("https://research-brief-generator-wmn3.onrender.com/api/brief",
-        { urls: urlArray }
-      );
+      // const res = await axios.post("https://research-brief-generator-wmn3.onrender.com/api/brief",
+      //   { urls: urlArray }
+      // );
+
+      const API_BASE = import.meta.env.VITE_API_URL;
+
+const res = await axios.post(`${API_BASE}/api/brief`, {
+  urls: urlArray
+});
 
       setBrief(res.data);
     } catch (err) {
