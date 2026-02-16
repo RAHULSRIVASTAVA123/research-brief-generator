@@ -101,3 +101,5 @@ https://example.com
 https://www.ietf.org/rfc/rfc2616.txt
 
 
+Deployment Link---https://research-brief-generator-omega.vercel.app/
+
