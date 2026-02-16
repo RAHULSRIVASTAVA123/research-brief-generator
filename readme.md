@@ -36,4 +36,3 @@ This app allows users to:
 
 ---
 
-## 📦 Project Structure
