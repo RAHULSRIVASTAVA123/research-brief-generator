@@ -97,7 +97,6 @@ JSON parsing includes safety handling:
 Few Url exaple you can check:
 https://en.wikipedia.org/wiki/Artificial_intelligence
 https://en.wikipedia.org/wiki/Machine_learning
-https://example.com
 https://www.ietf.org/rfc/rfc2616.txt
 
 
